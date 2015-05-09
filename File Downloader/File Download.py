@@ -12,20 +12,30 @@ def download_file(url, index):
                 f.write(chunk)
                 f.flush()
     return local_filename
-#http://ww0.java4.datastructures.net/handouts/
+
+
+
+
+#Change Here To Change the Website
 root_link="http://people.cs.umass.edu/~barring/cs250s14/lecture/"
+
+
+
 
 r=requests.get(root_link)
 if r.status_code==200:
     soup=BeautifulSoup(r.text)
     # print soup.prettify()
+
+   
     index=1
+    
     for link in soup.find_all('a'):
         new_link=root_link+link.get('href')
         if new_link.endswith(".pdf"):
             file_path=download_file(new_link,str(index))
             print "downloading:"+new_link+" -> "+file_path
-            index+=1
+            # index+=1
     print "all download finished"
 else:
     print "errors occur."
