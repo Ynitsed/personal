@@ -692,3 +692,7 @@ function __setprompt
 	PS4='\[${DARKGRAY}\]+\[${NOCOLOR}\] '
 }
 PROMPT_COMMAND='__setprompt'
+
+
+alias grep="/bin/grep $GREP_OPTIONS"
+unset GREP_OPTIONS
