@@ -92,7 +92,7 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/pw_maze_black_2X.png) left top repeat;
+	background:url(../img/pw_maze_black_2X.png) left top repeat; /* Original ../img/pw_maze_black_2X.png/*/
 	padding:280px 0;
 }
 .logo{
@@ -156,7 +156,7 @@ color: #fff;
 }
 .link:hover {
 	text-decoration:none;
-	color:#7cc576 !important;
+	color:#7cc576 !important;  /*Original #7cc576* Green  ---> #1b75bc Blue*/
 	background:#fff;
 }
 
