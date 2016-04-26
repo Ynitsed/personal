@@ -82,6 +82,19 @@ h4{
 	text-transform:uppercase;
 	font-weight:400;
 }
+
+h5{
+	font-size:28px;
+	color:#f2f3f4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:700;
+	letter-spacing: -1px;
+	margin:0 0 15px 0;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+
 h6{
 	font-size:16px;
 	color:#888888;
@@ -90,6 +103,8 @@ h6{
 	text-align:center;
 	margin:0 0 60px 0;
 }
+
+
 p{
 	line-height:24px;
 	margin:0;
@@ -226,7 +241,7 @@ color: #fff;
 .service-list{
 	padding:0 0 0 0;
 	font-size:14px;
-	margin-bottom:40px;
+	margin-bottom:400px;
 }
 .service-list-col1{
 	float:left;
@@ -844,3 +859,37 @@ border: 2px solid #fff;
 }
 
 
+
+
+
+
+
+.modal-header {
+	background: #3498db;
+}
+
+.modal-header h4 {
+	color: white;
+}
+
+.modal-footer {
+	background: #2b2b2b;
+}
+
+
+.navbar-default {
+border-color: transparent;
+background-color: #dadada;
+}
+
+
+.navbar-toggle {
+border-color: transparent;
+border: 0px solid transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background-color: #16a085;
+	color: white;
+}
