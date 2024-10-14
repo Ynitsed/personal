@@ -1,7 +1,7 @@
 <?php
 // Database connection details
 $servername = "10.0.0.6";
-$username = "kelleylu001";
+$username = "kelleylu002";
 $password = "Kelly@ite001~~";
 $dbname = "asset_management";
 
@@ -72,9 +72,31 @@ $conn->close();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asset Management</title>
+    <style>
+        body {
+            background-image: url('https://midtermstorage.blob.core.windows.net/midtermcontainer/website/wallpaper.jpg');
+            background-size: cover; /* Make the image cover the entire background */
+            background-position: center; /* Center the image */
+            color: white; /* Change text color for better visibility */
+            font-family: Arial, sans-serif; /* Font style */
+        }
+
+        h1, h2 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add a shadow for readability */
+        }
+
+        form {
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for form */
+            padding: 20px; /* Padding for form */
+            border-radius: 5px; /* Rounded corners */
+            margin-bottom: 20px; /* Space below the form */
+        }
+    </style>
 </head>
 <body>
 
