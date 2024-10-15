@@ -1,7 +1,7 @@
 <?php
 // Database connection details
-$servername = "10.0.0.6";
-$username = "kelleylu002";
+$servername = "vm3db";
+$username = "gabriellu";
 $password = "Kelly@ite001~~";
 $dbname = "asset_management";
 
