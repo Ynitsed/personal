@@ -79,7 +79,7 @@ $conn->close();
     <title>Asset Management</title>
     <style>
         body {
-            background-image: url('https://midtermstorage.blob.core.windows.net/midtermcontainer/website/wallpaper.jpg');
+            background-image: url('https://assetmanagementstoragegl.blob.core.windows.net/assetmanagement/wallpaper.jpeg');
             background-size: cover; /* Make the image cover the entire background */
             background-position: center; /* Center the image */
             color: white; /* Change text color for better visibility */
